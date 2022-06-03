@@ -1,0 +1,26 @@
+{
+  "name": "api-rate-limit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RajarsiMukherjee/API-Rate-Limit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RajarsiMukherjee/API-Rate-Limit/issues"
+  },
+  "homepage": "https://github.com/RajarsiMukherjee/API-Rate-Limit#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "express-rate-limit": "^6.3.0",
+    "nodemon": "^2.0.16"
+  }
+}
